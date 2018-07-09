@@ -18,8 +18,8 @@ sudo pip install pep8 flake8 pyflakes isort yapf
 - `<F5>` run in command line
 - `<F6>` is equal to `python manage.py runserver`
 - `<c-j>` quickrun in vim bottom 
-- `<c-d>` Go to definition
-- `<c-d>` Go to definition in new tab
+- `, d` Go to definition
+- `, D` Go to definition in new tab
 and more, enjoy
 
 
