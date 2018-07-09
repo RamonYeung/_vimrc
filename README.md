@@ -20,7 +20,9 @@ sudo pip install pep8 flake8 pyflakes isort yapf
 - `<c-j>` quickrun in vim bottom 
 - `, d` Go to definition
 - `, D` Go to definition in new tab
-- and [more](https://github.com/fisadev/fisa-vim-config/blob/master/docs/features.rst), enjoy
+- and [more](https://github.com/fisadev/fisa-vim-config/blob/master/docs/features.rst)
+
+enjoy
 
 #### small tutorial.
 
