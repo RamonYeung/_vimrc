@@ -8,6 +8,7 @@ download the .vimrc file and place it in your linux home folder, based on [fisa-
 
 - `<F5>` run in command line
 - `<F6>` is equal to `python manage.py runserver`
-- `<c-j>` quickrun in vim bottom window
-- `<c-d>` go to 
+- `<c-j>` quickrun in vim bottom 
+- `<c-d>` Go to definition
+- `<c-d>` Go to definition in new tab
 and more, enjoy
