@@ -75,6 +75,7 @@ Plug 'Shougo/neocomplcache.vim'
 " Snippets manager (SnipMate), dependencies, and snippets repo
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
+" my
 Plug 'honza/vim-snippets'
 Plug 'garbas/vim-snipmate'
 " Git/mercurial/others diff icons on the side of the file lines
@@ -118,6 +119,11 @@ Plug 'thinca/vim-quickrun'
 
 " djagno
 Plug 'lambdalisue/vim-django-support'
+" markdown
+Plug 'iamcco/markdown-preview.vim'
+
+"tmux
+Plug 'christoomey/vim-tmux-navigator'
 
 " Tell vim-plug we finished declaring plugins, so it can load them
 call plug#end()
@@ -446,6 +452,18 @@ func! DjRun()
     exec '!time python manage.py runserver'
 endfunc 
 
+"保存
+"map <c-k> :call Tosave()<CR>
+func! Tosave()
+    exec 'w'
+endfunc 
+
+"markdown
+"map <c-l> :MarkdownPreview<CR>
+
+"markdownstop
+"map <c-k> :MarkdownPreviewStop<CR>
+
 
 " quickrun
 Plug 'thinca/vim-quickrun'
@@ -461,5 +479,6 @@ Plug 'thinca/vim-quickrun'
     nmap <Leader>r <Plug>(quickrun)
     map <c-j> :QuickRun<CR>
 " }}}
+"
 
 
