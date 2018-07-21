@@ -34,4 +34,6 @@ enjoy
 
 [tutorial](https://github.com/fisadev/fisa-vim-config/blob/master/docs/fancy_symbols.rst)
 #### based on [fisa-vim-config](http://fisadev.github.io/fisa-vim-config/), thanks. 
-tips: use vim with tmux with be more better 
+
+
+#### tips: use vim with tmux with be more better 
